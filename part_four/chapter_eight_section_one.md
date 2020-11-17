@@ -1,7 +1,8 @@
 ## Chapter 8. Object References, Mutability, and Recycling
 
 ### Variables are not boxes
-대개 변수를 **값을 담는 상자("variables as boxes")**에 비유하는데, 이 비유로 인해 객체지향(Object-Oriented) 언어의 reference variables(참조 변수)를 이해하기 어려워진다. 파이썬의 변수는 객체에 붙는 **레이블(label)**로 생각하는 것이 더 낫다. 객체에 붙는 *sticky_note*라고 생각하기.
+
+대개 변수를 **값을 담는 상자("variables as boxes")** 에 비유하는데, 이 비유로 인해 객체지향(Object-Oriented) 언어의 reference variables(참조 변수)를 이해하기 어려워진다. 파이썬의 변수는 객체에 붙는 **레이블(label)** 로 생각하는 것이 더 낫다. 객체에 붙는 *sticky_note*라고 생각하기.
 
 변수 a와 b는 동일한 list에 대한 reference를 가지고 있다.
 
