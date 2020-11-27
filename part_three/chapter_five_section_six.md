@@ -78,7 +78,7 @@ for name, param in sig.parameters.items():
 
 **inspect.signature** 은 **inspect.Signature** 객체를 반환한다. 해당 객체의 **parameters** 속성에서 **inspect.Parameters** 객체와 이름의 순서를 가진 매핑을 알 수 있다.
 
-* 
+* inspect signature binding
 ```python
 import inspect
 sig = inspect.signature(tag)
